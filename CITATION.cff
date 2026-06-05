@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: Kit de réplication du mémoire Priorisation et sélection par apprentissage automatique des tests pour Odoo un ERP open source 
+message: >
+  If you use this replication package, please cite it using the metadata from this file.
+type: dataset
+
+authors:
+  - given-names: Youssef
+    family-names: Fiher
+    affiliation: University of Namur
+  - given-names: Xavier
+    family-names: Devroey
+    affiliation: University of Namur
+    orcid: 0000-0002-0831-7606
+
+url: https://github.com/snail-unamur/odoo-test-priorisation
+
+abstract: >
+  Ce dossier contient les scripts, données, modèles et artefacts expérimentaux utilisés pour l’évaluation du mémoire : Priorisation et sélection par apprentissage automatique des tests pour Odoo, un ERP open source. L’objectif de ce package est de permettre la vérification du protocole expérimental : collecte des données, construction du dataset, extraction des features, entraînement des modèles de ranking, validation croisée Leave-One-Commit-Out et validation complémentaire par injection de mutations.
+
+license: MIT
