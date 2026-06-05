@@ -1,0 +1,2586 @@
+{
+  "account": [
+    "base_setup",
+    "onboarding",
+    "product",
+    "analytic",
+    "portal",
+    "digest"
+  ],
+  "account_add_gln": [
+    "account"
+  ],
+  "account_check_printing": [
+    "account"
+  ],
+  "account_debit_note": [
+    "account"
+  ],
+  "account_edi": [
+    "account"
+  ],
+  "account_edi_proxy_client": [
+    "account",
+    "certificate"
+  ],
+  "account_edi_ubl_cii": [
+    "account"
+  ],
+  "account_fleet": [
+    "fleet",
+    "account"
+  ],
+  "account_payment": [
+    "account",
+    "payment"
+  ],
+  "account_peppol": [
+    "account_edi_proxy_client",
+    "account_edi_ubl_cii"
+  ],
+  "account_peppol_advanced_fields": [
+    "account",
+    "account_edi_ubl_cii"
+  ],
+  "account_peppol_response": [
+    "account_peppol"
+  ],
+  "account_qr_code_emv": [
+    "account"
+  ],
+  "account_qr_code_sepa": [
+    "account",
+    "base_iban"
+  ],
+  "account_tax_python": [
+    "account"
+  ],
+  "account_test": [
+    "account"
+  ],
+  "account_update_tax_tags": [
+    "account"
+  ],
+  "analytic": [
+    "base",
+    "mail",
+    "uom"
+  ],
+  "api_doc": [
+    "web"
+  ],
+  "attachment_indexation": [
+    "web"
+  ],
+  "auth_ldap": [
+    "base",
+    "base_setup"
+  ],
+  "auth_oauth": [
+    "base",
+    "web",
+    "base_setup",
+    "auth_signup"
+  ],
+  "auth_passkey": [
+    "base_setup",
+    "web"
+  ],
+  "auth_passkey_portal": [
+    "auth_passkey",
+    "portal"
+  ],
+  "auth_password_policy": [
+    "base_setup",
+    "web"
+  ],
+  "auth_password_policy_portal": [
+    "auth_password_policy",
+    "portal"
+  ],
+  "auth_password_policy_signup": [
+    "auth_password_policy",
+    "auth_signup"
+  ],
+  "auth_signup": [
+    "base_setup",
+    "mail",
+    "web"
+  ],
+  "auth_timeout": [
+    "auth_totp",
+    "auth_totp_mail",
+    "auth_passkey",
+    "bus"
+  ],
+  "auth_totp": [
+    "web"
+  ],
+  "auth_totp_mail": [
+    "auth_totp",
+    "mail"
+  ],
+  "auth_totp_portal": [
+    "portal",
+    "auth_totp"
+  ],
+  "barcodes": [
+    "web"
+  ],
+  "barcodes_gs1_nomenclature": [
+    "barcodes",
+    "uom"
+  ],
+  "base_address_extended": [
+    "base",
+    "contacts"
+  ],
+  "base_automation": [
+    "base",
+    "digest",
+    "resource",
+    "mail",
+    "sms"
+  ],
+  "base_geolocalize": [
+    "base_setup"
+  ],
+  "base_iban": [
+    "account",
+    "web"
+  ],
+  "base_import": [
+    "web"
+  ],
+  "base_import_module": [
+    "web"
+  ],
+  "base_install_request": [
+    "mail"
+  ],
+  "base_setup": [
+    "base",
+    "web"
+  ],
+  "base_sparse_field": [
+    "base"
+  ],
+  "base_vat": [
+    "account"
+  ],
+  "board": [
+    "spreadsheet_dashboard"
+  ],
+  "bus": [
+    "base",
+    "web"
+  ],
+  "calendar": [
+    "base",
+    "mail"
+  ],
+  "calendar_sms": [
+    "calendar",
+    "sms"
+  ],
+  "certificate": [
+    "base_setup"
+  ],
+  "cloud_storage": [
+    "base_setup",
+    "mail"
+  ],
+  "cloud_storage_azure": [
+    "cloud_storage"
+  ],
+  "cloud_storage_google": [
+    "cloud_storage"
+  ],
+  "cloud_storage_migration": [
+    "cloud_storage"
+  ],
+  "contacts": [
+    "base",
+    "mail"
+  ],
+  "crm": [
+    "base_setup",
+    "sales_team",
+    "mail",
+    "calendar",
+    "resource",
+    "utm",
+    "web_tour",
+    "contacts",
+    "digest",
+    "phone_validation"
+  ],
+  "crm_iap_enrich": [
+    "iap_crm",
+    "iap_mail"
+  ],
+  "crm_iap_mine": [
+    "iap_crm",
+    "iap_mail"
+  ],
+  "crm_livechat": [
+    "crm",
+    "im_livechat"
+  ],
+  "crm_mail_plugin": [
+    "crm",
+    "mail_plugin"
+  ],
+  "crm_sms": [
+    "crm",
+    "sms"
+  ],
+  "data_recycle": [
+    "mail"
+  ],
+  "delivery": [
+    "sale",
+    "payment_custom"
+  ],
+  "delivery_mondialrelay": [
+    "stock_delivery"
+  ],
+  "delivery_stock_picking_batch": [
+    "stock_delivery",
+    "stock_picking_batch"
+  ],
+  "digest": [
+    "mail",
+    "portal",
+    "resource"
+  ],
+  "event": [
+    "barcodes",
+    "base_setup",
+    "mail",
+    "phone_validation",
+    "portal",
+    "utm"
+  ],
+  "event_booth": [
+    "event"
+  ],
+  "event_booth_sale": [
+    "event_booth",
+    "event_sale"
+  ],
+  "event_crm": [
+    "event",
+    "crm"
+  ],
+  "event_crm_sale": [
+    "event_crm",
+    "event_sale"
+  ],
+  "event_product": [
+    "event",
+    "product",
+    "account"
+  ],
+  "event_sale": [
+    "event_product",
+    "sale_management"
+  ],
+  "event_sms": [
+    "event",
+    "sms"
+  ],
+  "fleet": [
+    "base",
+    "mail"
+  ],
+  "gamification": [
+    "mail"
+  ],
+  "gamification_sale_crm": [
+    "gamification",
+    "sale_crm"
+  ],
+  "google_account": [
+    "base_setup"
+  ],
+  "google_address_autocomplete": [
+    "web"
+  ],
+  "google_calendar": [
+    "google_account",
+    "calendar"
+  ],
+  "google_gmail": [
+    "mail"
+  ],
+  "google_recaptcha": [
+    "base_setup"
+  ],
+  "hr": [
+    "base_setup",
+    "digest",
+    "phone_validation",
+    "resource_mail",
+    "web"
+  ],
+  "hr_attendance": [
+    "hr",
+    "barcodes",
+    "base_geolocalize"
+  ],
+  "hr_calendar": [
+    "hr",
+    "calendar"
+  ],
+  "hr_expense": [
+    "account",
+    "web_tour",
+    "hr"
+  ],
+  "hr_fleet": [
+    "hr",
+    "fleet"
+  ],
+  "hr_gamification": [
+    "gamification",
+    "hr"
+  ],
+  "hr_holidays": [
+    "hr",
+    "calendar",
+    "resource"
+  ],
+  "hr_holidays_attendance": [
+    "hr_attendance",
+    "hr_holidays"
+  ],
+  "hr_holidays_homeworking": [
+    "hr_holidays",
+    "hr_homeworking"
+  ],
+  "hr_homeworking": [
+    "hr"
+  ],
+  "hr_homeworking_calendar": [
+    "hr_homeworking",
+    "calendar"
+  ],
+  "hr_hourly_cost": [
+    "hr"
+  ],
+  "hr_livechat": [
+    "hr",
+    "im_livechat"
+  ],
+  "hr_maintenance": [
+    "hr",
+    "maintenance"
+  ],
+  "hr_org_chart": [
+    "hr",
+    "web_hierarchy"
+  ],
+  "hr_presence": [
+    "hr",
+    "hr_holidays",
+    "sms"
+  ],
+  "hr_recruitment": [
+    "hr",
+    "calendar",
+    "utm",
+    "attachment_indexation",
+    "web_tour",
+    "digest"
+  ],
+  "hr_recruitment_skills": [
+    "hr_skills",
+    "hr_recruitment"
+  ],
+  "hr_recruitment_sms": [
+    "hr_recruitment",
+    "sms"
+  ],
+  "hr_recruitment_survey": [
+    "survey",
+    "hr_recruitment"
+  ],
+  "hr_skills": [
+    "hr"
+  ],
+  "hr_skills_event": [
+    "hr_skills",
+    "event"
+  ],
+  "hr_skills_slides": [
+    "hr_skills",
+    "website_slides"
+  ],
+  "hr_skills_survey": [
+    "hr_skills",
+    "survey"
+  ],
+  "hr_timesheet": [
+    "hr",
+    "hr_hourly_cost",
+    "analytic",
+    "project",
+    "uom"
+  ],
+  "hr_timesheet_attendance": [
+    "hr_timesheet",
+    "hr_attendance"
+  ],
+  "hr_work_entry": [
+    "hr"
+  ],
+  "hr_work_entry_holidays": [
+    "hr_holidays",
+    "hr_work_entry"
+  ],
+  "html_builder": [
+    "base",
+    "html_editor",
+    "mail"
+  ],
+  "html_editor": [
+    "base",
+    "bus",
+    "web"
+  ],
+  "http_routing": [
+    "web"
+  ],
+  "iap": [
+    "web",
+    "base_setup"
+  ],
+  "iap_crm": [
+    "crm",
+    "iap_mail"
+  ],
+  "iap_mail": [
+    "iap",
+    "mail"
+  ],
+  "im_livechat": [
+    "mail",
+    "rating",
+    "digest",
+    "utm"
+  ],
+  "iot_base": [
+    "web"
+  ],
+  "l10n_account_edi_ubl_cii_tests": [
+    "account_edi_ubl_cii",
+    "l10n_fr_account",
+    "l10n_be",
+    "l10n_de",
+    "l10n_nl",
+    "l10n_au"
+  ],
+  "l10n_account_withholding_tax": [
+    "account"
+  ],
+  "l10n_account_withholding_tax_pos": [
+    "l10n_account_withholding_tax",
+    "point_of_sale"
+  ],
+  "l10n_ae": [
+    "account",
+    "l10n_gcc_invoice"
+  ],
+  "l10n_ae_pos": [
+    "l10n_gcc_pos",
+    "l10n_ae"
+  ],
+  "l10n_anz_ubl_pint": [
+    "account_edi_ubl_cii"
+  ],
+  "l10n_ar": [
+    "l10n_latam_invoice_document",
+    "l10n_latam_base",
+    "account"
+  ],
+  "l10n_ar_pos": [
+    "l10n_ar",
+    "point_of_sale"
+  ],
+  "l10n_ar_stock": [
+    "l10n_ar",
+    "stock_account"
+  ],
+  "l10n_ar_website_sale": [
+    "website_sale",
+    "l10n_ar"
+  ],
+  "l10n_ar_withholding": [
+    "l10n_ar",
+    "l10n_latam_check"
+  ],
+  "l10n_at": [
+    "account",
+    "account_edi_ubl_cii",
+    "base_iban",
+    "base_vat",
+    "l10n_din5008"
+  ],
+  "l10n_au": [
+    "account"
+  ],
+  "l10n_bd": [
+    "account"
+  ],
+  "l10n_be": [
+    "account",
+    "account_edi_ubl_cii",
+    "base_iban",
+    "base_vat"
+  ],
+  "l10n_be_pos_restaurant": [
+    "pos_restaurant",
+    "l10n_be"
+  ],
+  "l10n_be_pos_sale": [
+    "pos_sale",
+    "l10n_be"
+  ],
+  "l10n_bf": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_bg": [
+    "account",
+    "base_vat"
+  ],
+  "l10n_bg_ledger": [
+    "l10n_bg"
+  ],
+  "l10n_bh": [
+    "account",
+    "l10n_gcc_invoice"
+  ],
+  "l10n_bj": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_bo": [
+    "account"
+  ],
+  "l10n_br": [
+    "account",
+    "account_qr_code_emv",
+    "base_address_extended",
+    "l10n_latam_base",
+    "l10n_latam_invoice_document"
+  ],
+  "l10n_br_sales": [
+    "l10n_br",
+    "sale"
+  ],
+  "l10n_br_website_sale": [
+    "l10n_br",
+    "website_sale"
+  ],
+  "l10n_ca": [
+    "account",
+    "base_iban"
+  ],
+  "l10n_cd": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_cf": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_cg": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_ch": [
+    "account",
+    "account_edi_ubl_cii",
+    "base_iban",
+    "l10n_din5008"
+  ],
+  "l10n_ch_pos": [
+    "l10n_ch",
+    "point_of_sale"
+  ],
+  "l10n_ci": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_cl": [
+    "contacts",
+    "base_vat",
+    "l10n_latam_base",
+    "l10n_latam_invoice_document",
+    "uom",
+    "account"
+  ],
+  "l10n_cm": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_cn": [
+    "base",
+    "account"
+  ],
+  "l10n_cn_city": [
+    "l10n_cn",
+    "base_address_extended"
+  ],
+  "l10n_co": [
+    "account_debit_note",
+    "l10n_latam_base",
+    "account"
+  ],
+  "l10n_co_pos": [
+    "l10n_co",
+    "point_of_sale"
+  ],
+  "l10n_cr": [
+    "account"
+  ],
+  "l10n_cy": [
+    "account",
+    "account_edi_ubl_cii",
+    "base_vat"
+  ],
+  "l10n_cz": [
+    "account",
+    "account_edi_ubl_cii",
+    "base_iban",
+    "base_vat"
+  ],
+  "l10n_de": [
+    "base_iban",
+    "base_vat",
+    "l10n_din5008",
+    "account",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_din5008": [
+    "account"
+  ],
+  "l10n_din5008_expense": [
+    "l10n_din5008",
+    "hr_expense"
+  ],
+  "l10n_din5008_purchase": [
+    "l10n_din5008",
+    "purchase"
+  ],
+  "l10n_din5008_repair": [
+    "l10n_din5008",
+    "repair"
+  ],
+  "l10n_din5008_sale": [
+    "l10n_din5008",
+    "sale"
+  ],
+  "l10n_din5008_stock": [
+    "l10n_din5008",
+    "stock"
+  ],
+  "l10n_dk": [
+    "base_iban",
+    "base_vat",
+    "account",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_dk_fik": [
+    "l10n_dk"
+  ],
+  "l10n_dk_nemhandel": [
+    "account_edi_proxy_client",
+    "account_edi_ubl_cii",
+    "l10n_dk"
+  ],
+  "l10n_dk_nemhandel_response": [
+    "l10n_dk_nemhandel"
+  ],
+  "l10n_dk_oioubl": [
+    "account_edi_ubl_cii",
+    "l10n_dk"
+  ],
+  "l10n_do": [
+    "account",
+    "base_iban"
+  ],
+  "l10n_dz": [
+    "base_vat",
+    "account"
+  ],
+  "l10n_ec": [
+    "base",
+    "base_iban",
+    "account_debit_note",
+    "l10n_latam_invoice_document",
+    "l10n_latam_base",
+    "account"
+  ],
+  "l10n_ec_sale": [
+    "l10n_ec",
+    "sale"
+  ],
+  "l10n_ec_stock": [
+    "l10n_ec",
+    "stock"
+  ],
+  "l10n_ee": [
+    "account",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_eg": [
+    "account"
+  ],
+  "l10n_eg_edi_eta": [
+    "account_edi",
+    "l10n_eg"
+  ],
+  "l10n_es": [
+    "account",
+    "base_iban",
+    "base_vat",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_es_edi_facturae": [
+    "certificate",
+    "l10n_es"
+  ],
+  "l10n_es_edi_sii": [
+    "certificate",
+    "l10n_es",
+    "account_edi"
+  ],
+  "l10n_es_edi_tbai": [
+    "l10n_es",
+    "certificate"
+  ],
+  "l10n_es_edi_tbai_pos": [
+    "l10n_es_edi_tbai",
+    "point_of_sale"
+  ],
+  "l10n_es_edi_verifactu": [
+    "l10n_es"
+  ],
+  "l10n_es_edi_verifactu_pos": [
+    "l10n_es_edi_verifactu",
+    "point_of_sale"
+  ],
+  "l10n_es_pos": [
+    "point_of_sale",
+    "l10n_es"
+  ],
+  "l10n_et": [
+    "account"
+  ],
+  "l10n_eu_oss": [
+    "account"
+  ],
+  "l10n_fi": [
+    "base_iban",
+    "base_vat",
+    "account",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_fi_sale": [
+    "l10n_fi",
+    "sale"
+  ],
+  "l10n_fr": [
+    "base"
+  ],
+  "l10n_fr_account": [
+    "base_iban",
+    "base_vat",
+    "account",
+    "account_edi_ubl_cii",
+    "l10n_fr"
+  ],
+  "l10n_fr_facturx_chorus_pro": [
+    "account",
+    "account_edi_ubl_cii",
+    "l10n_fr_account"
+  ],
+  "l10n_fr_hr_holidays": [
+    "hr_holidays"
+  ],
+  "l10n_fr_hr_work_entry_holidays": [
+    "l10n_fr_hr_holidays",
+    "hr_work_entry_holidays"
+  ],
+  "l10n_fr_pos_cert": [
+    "l10n_fr_account",
+    "point_of_sale"
+  ],
+  "l10n_ga": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_gcc_invoice": [
+    "account"
+  ],
+  "l10n_gcc_invoice_stock_account": [
+    "l10n_gcc_invoice",
+    "stock_account"
+  ],
+  "l10n_gcc_pos": [
+    "point_of_sale",
+    "l10n_gcc_invoice"
+  ],
+  "l10n_gn": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_gq": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_gr": [
+    "account",
+    "base_iban",
+    "base_vat",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_gr_edi": [
+    "l10n_gr"
+  ],
+  "l10n_gt": [
+    "base",
+    "account"
+  ],
+  "l10n_gw": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_hk": [
+    "account_qr_code_emv",
+    "account"
+  ],
+  "l10n_hn": [
+    "base",
+    "account"
+  ],
+  "l10n_hr": [
+    "account",
+    "base_vat"
+  ],
+  "l10n_hr_edi": [
+    "l10n_hr",
+    "account_edi_ubl_cii",
+    "account_peppol"
+  ],
+  "l10n_hr_kuna": [
+    "account"
+  ],
+  "l10n_hu": [
+    "account",
+    "base_vat"
+  ],
+  "l10n_hu_edi": [
+    "account_debit_note",
+    "base_iban",
+    "l10n_hu"
+  ],
+  "l10n_id": [
+    "account",
+    "base_iban",
+    "base_vat"
+  ],
+  "l10n_id_efaktur_coretax": [
+    "l10n_id"
+  ],
+  "l10n_id_pos": [
+    "l10n_id",
+    "point_of_sale"
+  ],
+  "l10n_ie": [
+    "account",
+    "base_iban",
+    "base_vat",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_il": [
+    "account"
+  ],
+  "l10n_in": [
+    "account_tax_python",
+    "base_vat",
+    "account_debit_note",
+    "account",
+    "iap"
+  ],
+  "l10n_in_edi": [
+    "account_edi",
+    "l10n_in"
+  ],
+  "l10n_in_ewaybill": [
+    "l10n_in"
+  ],
+  "l10n_in_ewaybill_irn": [
+    "l10n_in_ewaybill",
+    "l10n_in_edi"
+  ],
+  "l10n_in_ewaybill_stock": [
+    "l10n_in_stock",
+    "l10n_in_ewaybill"
+  ],
+  "l10n_in_hr_holidays": [
+    "hr_holidays"
+  ],
+  "l10n_in_pos": [
+    "l10n_in",
+    "point_of_sale"
+  ],
+  "l10n_in_purchase_stock": [
+    "l10n_in_stock",
+    "purchase_stock"
+  ],
+  "l10n_in_sale": [
+    "l10n_in",
+    "sale"
+  ],
+  "l10n_in_sale_stock": [
+    "l10n_in_sale",
+    "l10n_in_stock",
+    "sale_stock"
+  ],
+  "l10n_in_stock": [
+    "l10n_in",
+    "stock"
+  ],
+  "l10n_iq": [
+    "account"
+  ],
+  "l10n_it": [
+    "account",
+    "base_iban",
+    "base_vat",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_it_edi": [
+    "l10n_it",
+    "account_edi_proxy_client",
+    "account_debit_note"
+  ],
+  "l10n_it_edi_doi": [
+    "l10n_it_edi",
+    "sale"
+  ],
+  "l10n_it_edi_sale": [
+    "l10n_it_edi",
+    "sale"
+  ],
+  "l10n_it_stock_ddt": [
+    "l10n_it_edi",
+    "stock_delivery",
+    "stock_account"
+  ],
+  "l10n_jo": [
+    "account"
+  ],
+  "l10n_jo_edi": [
+    "account_edi_ubl_cii",
+    "l10n_jo"
+  ],
+  "l10n_jo_edi_pos": [
+    "l10n_jo_edi",
+    "pos_edi_ubl"
+  ],
+  "l10n_jp": [
+    "account"
+  ],
+  "l10n_jp_ubl_pint": [
+    "account_edi_ubl_cii"
+  ],
+  "l10n_ke": [
+    "account"
+  ],
+  "l10n_ke_edi_tremol": [
+    "l10n_ke"
+  ],
+  "l10n_kh": [
+    "account_qr_code_emv",
+    "l10n_account_withholding_tax"
+  ],
+  "l10n_km": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_kr": [
+    "account"
+  ],
+  "l10n_kw": [
+    "account",
+    "l10n_gcc_invoice"
+  ],
+  "l10n_kz": [
+    "account"
+  ],
+  "l10n_latam_base": [
+    "contacts",
+    "base_vat"
+  ],
+  "l10n_latam_check": [
+    "account",
+    "base_vat"
+  ],
+  "l10n_latam_invoice_document": [
+    "account",
+    "account_debit_note"
+  ],
+  "l10n_lb_account": [
+    "account"
+  ],
+  "l10n_lk": [
+    "account",
+    "l10n_account_withholding_tax"
+  ],
+  "l10n_lt": [
+    "account",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_lu": [
+    "account",
+    "base_iban",
+    "base_vat",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_lv": [
+    "account",
+    "base_vat",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_ma": [
+    "base",
+    "account"
+  ],
+  "l10n_mc": [
+    "l10n_fr_account",
+    "account"
+  ],
+  "l10n_ml": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_mn": [
+    "account"
+  ],
+  "l10n_mr": [
+    "account",
+    "base_vat"
+  ],
+  "l10n_mt": [
+    "account",
+    "base_vat",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_mt_pos": [
+    "point_of_sale"
+  ],
+  "l10n_mu_account": [
+    "account"
+  ],
+  "l10n_mx": [
+    "account"
+  ],
+  "l10n_my": [
+    "account",
+    "account_tax_python"
+  ],
+  "l10n_my_edi": [
+    "l10n_my",
+    "l10n_my_ubl_pint",
+    "account_edi_proxy_client"
+  ],
+  "l10n_my_edi_pos": [
+    "l10n_my_edi",
+    "point_of_sale"
+  ],
+  "l10n_my_ubl_pint": [
+    "account_edi_ubl_cii"
+  ],
+  "l10n_mz": [
+    "base",
+    "account"
+  ],
+  "l10n_ne": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_ng": [
+    "base_vat",
+    "account"
+  ],
+  "l10n_nl": [
+    "base_iban",
+    "base_vat",
+    "account",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_no": [
+    "base_iban",
+    "base_vat",
+    "account",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_nz": [
+    "account"
+  ],
+  "l10n_om": [
+    "account",
+    "l10n_gcc_invoice"
+  ],
+  "l10n_pa": [
+    "account"
+  ],
+  "l10n_pe": [
+    "base_vat",
+    "base_address_extended",
+    "l10n_latam_base",
+    "l10n_latam_invoice_document",
+    "account_debit_note",
+    "account"
+  ],
+  "l10n_pe_pos": [
+    "l10n_pe",
+    "point_of_sale"
+  ],
+  "l10n_ph": [
+    "account",
+    "base_vat",
+    "l10n_account_withholding_tax"
+  ],
+  "l10n_pk": [
+    "account"
+  ],
+  "l10n_pl": [
+    "base_iban",
+    "base_vat",
+    "account",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_pl_edi": [
+    "l10n_pl",
+    "certificate"
+  ],
+  "l10n_pt": [
+    "base",
+    "account",
+    "base_vat",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_qa": [
+    "account",
+    "l10n_gcc_invoice"
+  ],
+  "l10n_ro": [
+    "account",
+    "base_vat",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_ro_cpv_code": [
+    "l10n_ro_edi"
+  ],
+  "l10n_ro_edi": [
+    "account_edi_ubl_cii",
+    "l10n_ro"
+  ],
+  "l10n_ro_edi_stock": [
+    "stock_delivery",
+    "l10n_ro_edi",
+    "stock_picking_batch"
+  ],
+  "l10n_ro_edi_stock_batch": [
+    "l10n_ro_edi_stock",
+    "stock_picking_batch"
+  ],
+  "l10n_rs": [
+    "account",
+    "base_vat"
+  ],
+  "l10n_rs_edi": [
+    "account_edi_ubl_cii",
+    "l10n_rs"
+  ],
+  "l10n_rw": [
+    "account"
+  ],
+  "l10n_sa": [
+    "l10n_gcc_invoice",
+    "account",
+    "account_debit_note"
+  ],
+  "l10n_sa_edi": [
+    "account_edi",
+    "account_edi_ubl_cii",
+    "l10n_sa",
+    "base_vat",
+    "certificate"
+  ],
+  "l10n_sa_edi_pos": [
+    "l10n_sa_pos",
+    "l10n_sa_edi"
+  ],
+  "l10n_sa_pos": [
+    "l10n_gcc_pos",
+    "l10n_sa"
+  ],
+  "l10n_sa_withholding_tax": [
+    "l10n_account_withholding_tax",
+    "l10n_sa"
+  ],
+  "l10n_se": [
+    "account",
+    "base_vat",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_sg": [
+    "account_qr_code_emv",
+    "account"
+  ],
+  "l10n_sg_ubl_pint": [
+    "account_edi_ubl_cii"
+  ],
+  "l10n_si": [
+    "account",
+    "base_vat",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_sk": [
+    "base_iban",
+    "base_vat",
+    "account"
+  ],
+  "l10n_sn": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_syscohada": [
+    "account"
+  ],
+  "l10n_td": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_test_pos_qr_payment": [
+    "point_of_sale",
+    "account_qr_code_sepa",
+    "l10n_be",
+    "l10n_ch",
+    "l10n_hk",
+    "l10n_br"
+  ],
+  "l10n_tg": [
+    "l10n_syscohada",
+    "account"
+  ],
+  "l10n_th": [
+    "account_qr_code_emv",
+    "account"
+  ],
+  "l10n_tn": [
+    "account"
+  ],
+  "l10n_tr": [
+    "account"
+  ],
+  "l10n_tr_nilvera": [
+    "l10n_tr"
+  ],
+  "l10n_tr_nilvera_base_vat": [
+    "l10n_tr_nilvera",
+    "base_vat"
+  ],
+  "l10n_tr_nilvera_edispatch": [
+    "l10n_tr_nilvera",
+    "stock"
+  ],
+  "l10n_tr_nilvera_einvoice": [
+    "l10n_tr_nilvera",
+    "account_edi_ubl_cii"
+  ],
+  "l10n_tr_nilvera_einvoice_extended": [
+    "l10n_tr_nilvera_einvoice",
+    "contacts"
+  ],
+  "l10n_tw": [
+    "account",
+    "base_address_extended"
+  ],
+  "l10n_tw_edi_ecpay": [
+    "l10n_tw",
+    "base_vat"
+  ],
+  "l10n_tw_edi_ecpay_website_sale": [
+    "website_sale",
+    "l10n_tw_edi_ecpay"
+  ],
+  "l10n_tz_account": [
+    "account"
+  ],
+  "l10n_ua": [
+    "account"
+  ],
+  "l10n_ug": [
+    "account"
+  ],
+  "l10n_uk": [
+    "account",
+    "base_iban",
+    "base_vat"
+  ],
+  "l10n_us": [
+    "base"
+  ],
+  "l10n_us_account": [
+    "l10n_us",
+    "account"
+  ],
+  "l10n_uy": [
+    "account",
+    "l10n_latam_invoice_document",
+    "l10n_latam_base"
+  ],
+  "l10n_uy_pos": [
+    "l10n_uy",
+    "point_of_sale"
+  ],
+  "l10n_uz": [
+    "account",
+    "base_vat"
+  ],
+  "l10n_ve": [
+    "account"
+  ],
+  "l10n_vn": [
+    "account_qr_code_emv",
+    "base_iban",
+    "account"
+  ],
+  "l10n_vn_edi_viettel": [
+    "l10n_vn"
+  ],
+  "l10n_vn_edi_viettel_pos": [
+    "l10n_vn_edi_viettel",
+    "point_of_sale"
+  ],
+  "l10n_za": [
+    "account",
+    "base_vat"
+  ],
+  "l10n_zm_account": [
+    "account"
+  ],
+  "link_tracker": [
+    "utm",
+    "mail"
+  ],
+  "loyalty": [
+    "product",
+    "portal",
+    "account"
+  ],
+  "lunch": [
+    "mail"
+  ],
+  "mail": [
+    "base",
+    "base_setup",
+    "bus",
+    "web_tour",
+    "html_editor"
+  ],
+  "mail_bot": [
+    "mail"
+  ],
+  "mail_bot_hr": [
+    "mail_bot",
+    "hr"
+  ],
+  "mail_group": [
+    "mail",
+    "portal"
+  ],
+  "mail_plugin": [
+    "web",
+    "contacts",
+    "iap"
+  ],
+  "maintenance": [
+    "mail"
+  ],
+  "marketing_card": [
+    "link_tracker",
+    "mass_mailing",
+    "website"
+  ],
+  "mass_mailing": [
+    "contacts",
+    "mail",
+    "html_builder",
+    "utm",
+    "link_tracker",
+    "social_media",
+    "web_tour",
+    "digest"
+  ],
+  "mass_mailing_crm": [
+    "crm",
+    "mass_mailing"
+  ],
+  "mass_mailing_crm_sms": [
+    "mass_mailing_crm",
+    "mass_mailing_sms"
+  ],
+  "mass_mailing_event": [
+    "event",
+    "mass_mailing"
+  ],
+  "mass_mailing_event_sms": [
+    "event",
+    "mass_mailing",
+    "mass_mailing_event",
+    "mass_mailing_sms",
+    "sms"
+  ],
+  "mass_mailing_event_track": [
+    "website_event_track",
+    "mass_mailing"
+  ],
+  "mass_mailing_event_track_sms": [
+    "mass_mailing",
+    "mass_mailing_sms",
+    "sms",
+    "website_event_track"
+  ],
+  "mass_mailing_sale": [
+    "sale",
+    "mass_mailing"
+  ],
+  "mass_mailing_sale_sms": [
+    "mass_mailing_sale",
+    "mass_mailing_sms"
+  ],
+  "mass_mailing_slides": [
+    "website_slides",
+    "mass_mailing"
+  ],
+  "mass_mailing_sms": [
+    "portal",
+    "mass_mailing",
+    "sms"
+  ],
+  "mass_mailing_themes": [
+    "mass_mailing"
+  ],
+  "microsoft_account": [
+    "base_setup"
+  ],
+  "microsoft_calendar": [
+    "microsoft_account",
+    "calendar"
+  ],
+  "microsoft_outlook": [
+    "mail"
+  ],
+  "mrp": [
+    "product",
+    "stock",
+    "resource"
+  ],
+  "mrp_account": [
+    "mrp",
+    "stock_account"
+  ],
+  "mrp_landed_costs": [
+    "stock_landed_costs",
+    "mrp"
+  ],
+  "mrp_product_expiry": [
+    "mrp",
+    "product_expiry"
+  ],
+  "mrp_repair": [
+    "repair",
+    "mrp"
+  ],
+  "mrp_subcontracting": [
+    "mrp"
+  ],
+  "mrp_subcontracting_account": [
+    "mrp_subcontracting",
+    "mrp_account"
+  ],
+  "mrp_subcontracting_dropshipping": [
+    "mrp_subcontracting",
+    "stock_dropshipping"
+  ],
+  "mrp_subcontracting_landed_costs": [
+    "stock_landed_costs",
+    "mrp_subcontracting"
+  ],
+  "mrp_subcontracting_purchase": [
+    "mrp_subcontracting",
+    "purchase_mrp"
+  ],
+  "mrp_subcontracting_repair": [
+    "mrp_subcontracting",
+    "repair"
+  ],
+  "onboarding": [
+    "web"
+  ],
+  "partnership": [
+    "crm",
+    "sale"
+  ],
+  "partner_autocomplete": [
+    "iap_mail"
+  ],
+  "payment": [
+    "onboarding",
+    "portal"
+  ],
+  "payment_adyen": [
+    "payment"
+  ],
+  "payment_aps": [
+    "payment"
+  ],
+  "payment_asiapay": [
+    "payment"
+  ],
+  "payment_authorize": [
+    "payment"
+  ],
+  "payment_buckaroo": [
+    "payment"
+  ],
+  "payment_custom": [
+    "payment"
+  ],
+  "payment_demo": [
+    "payment"
+  ],
+  "payment_dpo": [
+    "payment"
+  ],
+  "payment_flutterwave": [
+    "payment"
+  ],
+  "payment_iyzico": [
+    "payment"
+  ],
+  "payment_mercado_pago": [
+    "payment"
+  ],
+  "payment_mollie": [
+    "payment"
+  ],
+  "payment_nuvei": [
+    "payment"
+  ],
+  "payment_paymob": [
+    "payment"
+  ],
+  "payment_paypal": [
+    "payment"
+  ],
+  "payment_razorpay": [
+    "payment"
+  ],
+  "payment_redsys": [
+    "payment"
+  ],
+  "payment_stripe": [
+    "payment"
+  ],
+  "payment_toss_payments": [
+    "payment"
+  ],
+  "payment_worldline": [
+    "payment"
+  ],
+  "payment_xendit": [
+    "payment"
+  ],
+  "phone_validation": [
+    "base",
+    "mail"
+  ],
+  "point_of_sale": [
+    "resource",
+    "stock_account",
+    "barcodes",
+    "html_editor",
+    "digest",
+    "phone_validation",
+    "partner_autocomplete",
+    "iot_base",
+    "google_address_autocomplete"
+  ],
+  "portal": [
+    "web",
+    "html_editor",
+    "http_routing",
+    "mail",
+    "auth_signup"
+  ],
+  "portal_rating": [
+    "portal",
+    "rating"
+  ],
+  "pos_account_tax_python": [
+    "account_tax_python",
+    "point_of_sale"
+  ],
+  "pos_adyen": [
+    "point_of_sale"
+  ],
+  "pos_cashdro": [
+    "point_of_sale"
+  ],
+  "pos_discount": [
+    "point_of_sale"
+  ],
+  "pos_dpopay": [
+    "point_of_sale"
+  ],
+  "pos_edi_ubl": [
+    "point_of_sale",
+    "account_edi_ubl_cii"
+  ],
+  "pos_event": [
+    "point_of_sale",
+    "event_product"
+  ],
+  "pos_event_sale": [
+    "pos_event",
+    "pos_sale"
+  ],
+  "pos_glory_cash": [
+    "point_of_sale"
+  ],
+  "pos_hr": [
+    "point_of_sale",
+    "hr"
+  ],
+  "pos_hr_restaurant": [
+    "pos_hr",
+    "pos_restaurant"
+  ],
+  "pos_imin": [
+    "point_of_sale"
+  ],
+  "pos_loyalty": [
+    "loyalty",
+    "point_of_sale"
+  ],
+  "pos_mercado_pago": [
+    "point_of_sale"
+  ],
+  "pos_mollie": [
+    "point_of_sale",
+    "payment_mollie"
+  ],
+  "pos_mrp": [
+    "point_of_sale",
+    "mrp"
+  ],
+  "pos_online_payment": [
+    "point_of_sale",
+    "account_payment"
+  ],
+  "pos_online_payment_self_order": [
+    "pos_online_payment",
+    "pos_self_order"
+  ],
+  "pos_pine_labs": [
+    "point_of_sale"
+  ],
+  "pos_qfpay": [
+    "point_of_sale"
+  ],
+  "pos_razorpay": [
+    "point_of_sale"
+  ],
+  "pos_repair": [
+    "point_of_sale",
+    "repair"
+  ],
+  "pos_restaurant": [
+    "point_of_sale"
+  ],
+  "pos_restaurant_adyen": [
+    "pos_adyen",
+    "pos_restaurant",
+    "payment_adyen"
+  ],
+  "pos_restaurant_loyalty": [
+    "pos_restaurant",
+    "pos_loyalty"
+  ],
+  "pos_restaurant_stripe": [
+    "pos_stripe",
+    "pos_restaurant",
+    "payment_stripe"
+  ],
+  "pos_safaricom": [
+    "point_of_sale"
+  ],
+  "pos_sale": [
+    "point_of_sale",
+    "sale_management"
+  ],
+  "pos_sale_loyalty": [
+    "pos_sale",
+    "pos_loyalty"
+  ],
+  "pos_sale_margin": [
+    "pos_sale",
+    "sale_margin"
+  ],
+  "pos_self_order": [
+    "pos_restaurant",
+    "http_routing",
+    "link_tracker"
+  ],
+  "pos_self_order_adyen": [
+    "pos_adyen",
+    "pos_self_order"
+  ],
+  "pos_self_order_pine_labs": [
+    "pos_pine_labs",
+    "pos_self_order"
+  ],
+  "pos_self_order_qfpay": [
+    "pos_qfpay",
+    "pos_self_order"
+  ],
+  "pos_self_order_razorpay": [
+    "pos_razorpay",
+    "pos_self_order"
+  ],
+  "pos_self_order_sale": [
+    "pos_sale",
+    "pos_self_order"
+  ],
+  "pos_self_order_stripe": [
+    "pos_stripe",
+    "pos_self_order"
+  ],
+  "pos_sms": [
+    "point_of_sale",
+    "sms"
+  ],
+  "pos_stripe": [
+    "point_of_sale",
+    "payment_stripe"
+  ],
+  "pos_viva_com": [
+    "point_of_sale"
+  ],
+  "privacy_lookup": [
+    "mail"
+  ],
+  "product": [
+    "base",
+    "mail",
+    "uom"
+  ],
+  "product_email_template": [
+    "account"
+  ],
+  "product_expiry": [
+    "stock"
+  ],
+  "product_margin": [
+    "account"
+  ],
+  "product_matrix": [
+    "account"
+  ],
+  "project": [
+    "analytic",
+    "base_setup",
+    "mail",
+    "portal",
+    "rating",
+    "resource",
+    "web",
+    "web_tour",
+    "digest"
+  ],
+  "project_account": [
+    "account",
+    "project"
+  ],
+  "project_hr_expense": [
+    "project_account",
+    "hr_expense"
+  ],
+  "project_hr_skills": [
+    "project",
+    "hr_skills"
+  ],
+  "project_mail_plugin": [
+    "project",
+    "mail_plugin"
+  ],
+  "project_mrp": [
+    "mrp",
+    "project"
+  ],
+  "project_mrp_account": [
+    "mrp_account",
+    "project_mrp"
+  ],
+  "project_mrp_sale": [
+    "project_mrp",
+    "sale_mrp",
+    "sale_project"
+  ],
+  "project_mrp_stock_landed_costs": [
+    "project_mrp_account",
+    "mrp_landed_costs"
+  ],
+  "project_purchase": [
+    "purchase",
+    "project_account"
+  ],
+  "project_purchase_stock": [
+    "project_purchase",
+    "project_stock"
+  ],
+  "project_sale_expense": [
+    "sale_project",
+    "sale_expense",
+    "project_hr_expense"
+  ],
+  "project_sms": [
+    "project",
+    "sms"
+  ],
+  "project_stock": [
+    "stock",
+    "project"
+  ],
+  "project_stock_account": [
+    "stock_account",
+    "project_stock"
+  ],
+  "project_stock_landed_costs": [
+    "project_stock_account",
+    "stock_landed_costs"
+  ],
+  "project_timesheet_holidays": [
+    "hr_timesheet",
+    "hr_holidays"
+  ],
+  "project_todo": [
+    "project"
+  ],
+  "purchase": [
+    "account"
+  ],
+  "purchase_edi_ubl_bis3": [
+    "purchase",
+    "account_edi_ubl_cii"
+  ],
+  "purchase_mrp": [
+    "mrp",
+    "purchase_stock"
+  ],
+  "purchase_product_matrix": [
+    "purchase",
+    "product_matrix"
+  ],
+  "purchase_repair": [
+    "repair",
+    "purchase_stock"
+  ],
+  "purchase_requisition": [
+    "purchase"
+  ],
+  "purchase_requisition_sale": [
+    "purchase_requisition",
+    "sale_purchase"
+  ],
+  "purchase_requisition_stock": [
+    "purchase_requisition",
+    "purchase_stock"
+  ],
+  "purchase_stock": [
+    "stock_account",
+    "purchase"
+  ],
+  "rating": [
+    "mail"
+  ],
+  "repair": [
+    "sale_stock",
+    "sale_management"
+  ],
+  "resource": [
+    "base",
+    "web"
+  ],
+  "resource_mail": [
+    "resource",
+    "mail"
+  ],
+  "rpc": [
+    "base"
+  ],
+  "sale": [
+    "sales_team",
+    "account_payment",
+    "utm"
+  ],
+  "sales_team": [
+    "base",
+    "mail"
+  ],
+  "sale_crm": [
+    "sale",
+    "crm"
+  ],
+  "sale_edi_ubl": [
+    "sale",
+    "account_edi_ubl_cii"
+  ],
+  "sale_expense": [
+    "sale_management",
+    "hr_expense"
+  ],
+  "sale_expense_margin": [
+    "sale_expense",
+    "sale_margin"
+  ],
+  "sale_gelato": [
+    "sale",
+    "delivery"
+  ],
+  "sale_gelato_stock": [
+    "sale_gelato",
+    "sale_stock"
+  ],
+  "sale_loyalty": [
+    "sale",
+    "loyalty"
+  ],
+  "sale_loyalty_delivery": [
+    "sale_loyalty",
+    "delivery"
+  ],
+  "sale_management": [
+    "sale",
+    "digest"
+  ],
+  "sale_margin": [
+    "sale_management"
+  ],
+  "sale_mrp": [
+    "mrp",
+    "sale_stock"
+  ],
+  "sale_mrp_margin": [
+    "sale_mrp",
+    "sale_stock_margin"
+  ],
+  "sale_pdf_quote_builder": [
+    "sale_management"
+  ],
+  "sale_product_matrix": [
+    "sale",
+    "product_matrix"
+  ],
+  "sale_project": [
+    "sale_management",
+    "sale_service",
+    "project_account"
+  ],
+  "sale_project_stock": [
+    "sale_project",
+    "sale_stock",
+    "project_stock_account"
+  ],
+  "sale_project_stock_account": [
+    "sale_project",
+    "project_stock_account"
+  ],
+  "sale_purchase": [
+    "sale",
+    "purchase"
+  ],
+  "sale_purchase_project": [
+    "sale_purchase",
+    "project_purchase",
+    "sale_project"
+  ],
+  "sale_purchase_stock": [
+    "sale_stock",
+    "purchase_stock",
+    "sale_purchase"
+  ],
+  "sale_service": [
+    "sale_management"
+  ],
+  "sale_sms": [
+    "sale",
+    "sms"
+  ],
+  "sale_stock": [
+    "sale",
+    "stock_account"
+  ],
+  "sale_stock_margin": [
+    "sale_stock",
+    "sale_margin"
+  ],
+  "sale_stock_product_expiry": [
+    "sale_stock",
+    "product_expiry"
+  ],
+  "sale_timesheet": [
+    "sale_project",
+    "hr_timesheet"
+  ],
+  "sale_timesheet_margin": [
+    "sale_margin",
+    "sale_timesheet"
+  ],
+  "sms": [
+    "base",
+    "iap_mail",
+    "mail",
+    "phone_validation"
+  ],
+  "sms_twilio": [
+    "sms"
+  ],
+  "snailmail": [
+    "iap_mail",
+    "mail"
+  ],
+  "snailmail_account": [
+    "account",
+    "snailmail"
+  ],
+  "social_media": [
+    "base"
+  ],
+  "spreadsheet": [
+    "bus",
+    "web",
+    "portal"
+  ],
+  "spreadsheet_account": [
+    "spreadsheet",
+    "account"
+  ],
+  "spreadsheet_dashboard": [
+    "spreadsheet"
+  ],
+  "spreadsheet_dashboard_account": [
+    "spreadsheet_dashboard",
+    "account"
+  ],
+  "spreadsheet_dashboard_event_sale": [
+    "spreadsheet_dashboard",
+    "event_sale"
+  ],
+  "spreadsheet_dashboard_hr_expense": [
+    "spreadsheet_dashboard",
+    "sale_expense"
+  ],
+  "spreadsheet_dashboard_hr_timesheet": [
+    "spreadsheet_dashboard",
+    "hr_timesheet"
+  ],
+  "spreadsheet_dashboard_im_livechat": [
+    "spreadsheet_dashboard",
+    "im_livechat"
+  ],
+  "spreadsheet_dashboard_pos_hr": [
+    "spreadsheet_dashboard",
+    "pos_hr"
+  ],
+  "spreadsheet_dashboard_pos_restaurant": [
+    "spreadsheet_dashboard",
+    "pos_hr",
+    "pos_restaurant"
+  ],
+  "spreadsheet_dashboard_sale": [
+    "spreadsheet_dashboard",
+    "sale"
+  ],
+  "spreadsheet_dashboard_sale_timesheet": [
+    "spreadsheet_dashboard",
+    "sale_timesheet"
+  ],
+  "spreadsheet_dashboard_stock_account": [
+    "spreadsheet_dashboard",
+    "stock_account"
+  ],
+  "spreadsheet_dashboard_website_sale": [
+    "spreadsheet_dashboard",
+    "website_sale"
+  ],
+  "spreadsheet_dashboard_website_sale_slides": [
+    "spreadsheet_dashboard",
+    "website_sale_slides"
+  ],
+  "stock": [
+    "product",
+    "barcodes_gs1_nomenclature",
+    "digest"
+  ],
+  "stock_account": [
+    "stock",
+    "account"
+  ],
+  "stock_delivery": [
+    "sale_stock",
+    "delivery"
+  ],
+  "stock_dropshipping": [
+    "sale_purchase_stock"
+  ],
+  "stock_fleet": [
+    "stock_picking_batch",
+    "fleet"
+  ],
+  "stock_landed_costs": [
+    "stock_account",
+    "purchase_stock"
+  ],
+  "stock_maintenance": [
+    "stock",
+    "maintenance"
+  ],
+  "stock_picking_batch": [
+    "stock"
+  ],
+  "stock_sms": [
+    "stock",
+    "sms"
+  ],
+  "survey": [
+    "auth_signup",
+    "http_routing",
+    "mail",
+    "web_tour",
+    "gamification"
+  ],
+  "survey_crm": [
+    "survey",
+    "crm"
+  ],
+  "test_base_automation": [
+    "base_automation"
+  ],
+  "test_crm_full": [
+    "crm",
+    "crm_iap_enrich",
+    "crm_iap_mine",
+    "crm_sms",
+    "event_crm",
+    "sale_crm",
+    "website_crm",
+    "website_crm_iap_reveal",
+    "website_crm_partner_assign",
+    "website_crm_livechat"
+  ],
+  "test_discuss_full": [
+    "calendar",
+    "crm",
+    "crm_livechat",
+    "hr_attendance",
+    "hr_fleet",
+    "hr_holidays",
+    "hr_homeworking",
+    "im_livechat",
+    "mail",
+    "mail_bot",
+    "project_todo",
+    "website_livechat",
+    "website_sale",
+    "website_slides"
+  ],
+  "test_event_full": [
+    "event",
+    "event_booth",
+    "event_crm",
+    "event_crm_sale",
+    "event_sale",
+    "event_sms",
+    "payment_demo",
+    "website_event_booth_sale_exhibitor",
+    "website_event_exhibitor",
+    "website_event_sale",
+    "website_event_track",
+    "website_event_track_live",
+    "website_event_track_quiz"
+  ],
+  "test_html_field_history": [
+    "html_editor"
+  ],
+  "test_import_export": [
+    "web",
+    "base_import",
+    "website"
+  ],
+  "test_mail": [
+    "mail",
+    "test_orm"
+  ],
+  "test_mail_full": [
+    "mail",
+    "mail_bot",
+    "portal",
+    "rating",
+    "snailmail",
+    "mass_mailing",
+    "mass_mailing_sms",
+    "phone_validation",
+    "sms",
+    "test_mail",
+    "test_mail_sms",
+    "test_mass_mailing"
+  ],
+  "test_mail_sms": [
+    "mail",
+    "sms",
+    "sms_twilio",
+    "test_orm"
+  ],
+  "test_mass_mailing": [
+    "mass_mailing",
+    "mass_mailing_sms",
+    "sms_twilio",
+    "test_mail",
+    "test_mail_sms"
+  ],
+  "test_resource": [
+    "resource"
+  ],
+  "test_sale_product_configurators": [
+    "event_sale",
+    "sale_management",
+    "sale_product_matrix"
+  ],
+  "test_sale_purchase_edi_ubl": [
+    "purchase_edi_ubl_bis3",
+    "sale_edi_ubl"
+  ],
+  "test_spreadsheet": [
+    "spreadsheet"
+  ],
+  "test_website": [
+    "web_unsplash",
+    "website",
+    "theme_default"
+  ],
+  "test_website_modules": [
+    "theme_default",
+    "website",
+    "website_blog",
+    "website_event_sale",
+    "website_slides",
+    "website_livechat",
+    "website_crm_iap_reveal",
+    "website_sale_comparison",
+    "website_sale_wishlist"
+  ],
+  "test_website_slides_full": [
+    "website_sale_slides",
+    "website_slides_forum",
+    "website_slides_survey"
+  ],
+  "theme_default": [
+    "website"
+  ],
+  "transifex": [
+    "base",
+    "web"
+  ],
+  "uom": [
+    "base"
+  ],
+  "utm": [
+    "base",
+    "web"
+  ],
+  "web": [
+    "base"
+  ],
+  "website": [
+    "digest",
+    "web",
+    "html_editor",
+    "http_routing",
+    "portal",
+    "social_media",
+    "auth_signup",
+    "mail",
+    "google_recaptcha",
+    "utm",
+    "html_builder"
+  ],
+  "website_blog": [
+    "website_mail",
+    "website_partner",
+    "html_builder"
+  ],
+  "website_cf_turnstile": [
+    "website"
+  ],
+  "website_crm": [
+    "website",
+    "crm"
+  ],
+  "website_crm_iap_reveal": [
+    "iap_crm",
+    "iap_mail",
+    "crm_iap_mine",
+    "website_crm"
+  ],
+  "website_crm_livechat": [
+    "website_crm",
+    "website_livechat"
+  ],
+  "website_crm_partner_assign": [
+    "base_geolocalize",
+    "crm",
+    "account",
+    "partnership",
+    "website_partner",
+    "website_google_map",
+    "portal"
+  ],
+  "website_crm_sms": [
+    "website_sms",
+    "crm"
+  ],
+  "website_customer": [
+    "website_crm_partner_assign",
+    "website_partner",
+    "website_google_map"
+  ],
+  "website_event": [
+    "event",
+    "website",
+    "website_partner",
+    "website_mail",
+    "html_builder"
+  ],
+  "website_event_booth": [
+    "website_event",
+    "event_booth"
+  ],
+  "website_event_booth_exhibitor": [
+    "website_event_exhibitor",
+    "website_event_booth"
+  ],
+  "website_event_booth_sale": [
+    "event_booth_sale",
+    "website_event_booth",
+    "website_sale"
+  ],
+  "website_event_booth_sale_exhibitor": [
+    "website_event_exhibitor",
+    "website_event_booth_sale"
+  ],
+  "website_event_crm": [
+    "event_crm",
+    "website_event"
+  ],
+  "website_event_exhibitor": [
+    "website_event"
+  ],
+  "website_event_sale": [
+    "website_event",
+    "event_sale",
+    "website_sale"
+  ],
+  "website_event_track": [
+    "website_event"
+  ],
+  "website_event_track_live": [
+    "website_event_track"
+  ],
+  "website_event_track_live_quiz": [
+    "website_event_track_live",
+    "website_event_track_quiz"
+  ],
+  "website_event_track_quiz": [
+    "website_profile",
+    "website_event_track"
+  ],
+  "website_forum": [
+    "auth_signup",
+    "website_mail",
+    "website_profile"
+  ],
+  "website_google_map": [
+    "base_geolocalize",
+    "website_partner"
+  ],
+  "website_hr_recruitment": [
+    "hr_recruitment",
+    "website_mail"
+  ],
+  "website_hr_recruitment_livechat": [
+    "website_hr_recruitment",
+    "im_livechat"
+  ],
+  "website_links": [
+    "website",
+    "link_tracker"
+  ],
+  "website_livechat": [
+    "website",
+    "im_livechat"
+  ],
+  "website_mail": [
+    "website",
+    "mail"
+  ],
+  "website_mail_group": [
+    "mail_group",
+    "website"
+  ],
+  "website_mass_mailing": [
+    "website",
+    "mass_mailing",
+    "google_recaptcha"
+  ],
+  "website_mass_mailing_sms": [
+    "website_mass_mailing",
+    "mass_mailing_sms"
+  ],
+  "website_partner": [
+    "website"
+  ],
+  "website_payment": [
+    "website",
+    "account_payment",
+    "portal"
+  ],
+  "website_profile": [
+    "html_editor",
+    "website_partner",
+    "gamification"
+  ],
+  "website_project": [
+    "website",
+    "project"
+  ],
+  "website_sale": [
+    "website",
+    "sale",
+    "website_payment",
+    "website_mail",
+    "portal_rating",
+    "digest",
+    "delivery",
+    "html_builder"
+  ],
+  "website_sale_autocomplete": [
+    "website_sale",
+    "google_address_autocomplete"
+  ],
+  "website_sale_collect": [
+    "base_geolocalize",
+    "payment_custom",
+    "website_sale_stock"
+  ],
+  "website_sale_collect_wishlist": [
+    "website_sale_wishlist",
+    "website_sale_collect"
+  ],
+  "website_sale_comparison": [
+    "website_sale"
+  ],
+  "website_sale_comparison_wishlist": [
+    "website_sale_comparison",
+    "website_sale_wishlist"
+  ],
+  "website_sale_gelato": [
+    "sale_gelato",
+    "website_sale"
+  ],
+  "website_sale_loyalty": [
+    "website_sale",
+    "website_links",
+    "sale_loyalty"
+  ],
+  "website_sale_mass_mailing": [
+    "website_sale",
+    "website_mass_mailing"
+  ],
+  "website_sale_mondialrelay": [
+    "website_sale",
+    "delivery_mondialrelay"
+  ],
+  "website_sale_mrp": [
+    "website_sale_stock",
+    "sale_mrp"
+  ],
+  "website_sale_slides": [
+    "website_slides",
+    "website_sale"
+  ],
+  "website_sale_stock": [
+    "website_sale",
+    "sale_stock",
+    "stock_delivery"
+  ],
+  "website_sale_stock_wishlist": [
+    "website_sale_stock",
+    "website_sale_wishlist"
+  ],
+  "website_sale_wishlist": [
+    "website_sale"
+  ],
+  "website_slides": [
+    "portal_rating",
+    "website",
+    "website_mail",
+    "website_profile"
+  ],
+  "website_slides_forum": [
+    "website_slides",
+    "website_forum"
+  ],
+  "website_slides_survey": [
+    "website_slides",
+    "survey"
+  ],
+  "website_sms": [
+    "website",
+    "sms"
+  ],
+  "website_timesheet": [
+    "website",
+    "hr_timesheet"
+  ],
+  "web_hierarchy": [
+    "web"
+  ],
+  "web_tour": [
+    "web"
+  ],
+  "web_unsplash": [
+    "base_setup",
+    "html_editor"
+  ]
+}
